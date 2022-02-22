@@ -1,0 +1,38 @@
+{
+  "name": "literal-as-enum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "npx tsc --watch",
+    "publish": "npm link",
+    "publish:npm": "npm publish",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/step-chew/literal-as-enum.git"
+  },
+  "keywords": [
+    "typescript",
+    "literal",
+    "union",
+    "enum"
+  ],
+  "author": "Stephen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/step-chew/literal-as-enum/issues"
+  },
+  "homepage": "https://github.com/step-chew/literal-as-enum#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  }
+}
