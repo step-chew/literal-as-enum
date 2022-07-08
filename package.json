@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "compile": "npx tsc --watch",
+    "build": "npx tsc",
     "publish": "npm link",
     "publish:npm": "npm publish",
     "test": "npx jest --watchAll"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/step-chew/literal-as-enum.git"
+    "url": "git+https://github.com/stephenchew/literal-as-enum.git"
   },
   "keywords": [
     "typescript",
