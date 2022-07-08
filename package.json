@@ -1,6 +1,6 @@
 {
   "name": "literal-as-enum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/enum.js",
   "types": "dist/enum.d.ts",

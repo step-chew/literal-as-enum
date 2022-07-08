@@ -1,5 +1,7 @@
 # Literal as enum
 
+Converts string constants into string literal type and provides handy utility functions.
+
 # Usage
 
 ## Setting up an enum type
